@@ -1,8 +1,10 @@
 
 export default function Page(){
     return (
-        <p>
-            lorem ipsum dor sit amet dolor sit amet
-        </p>
+        <section className={"flex bg-amber-600"}>
+            <h1>
+                Education page
+            </h1>
+        </section>
     )
 }

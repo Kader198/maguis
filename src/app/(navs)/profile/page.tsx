@@ -1,8 +1,13 @@
 
 export default function Page(){
     return (
-        <p>
-            this is profile page
-        </p>
+        <div>
+            <h1 className={""}>
+                Profile page
+            </h1>
+            <section>
+                content
+            </section>
+        </div>
     )
 }

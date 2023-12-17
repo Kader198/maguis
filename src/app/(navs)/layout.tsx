@@ -4,7 +4,7 @@ import React from "react";
 export default function EducationsLayout({children}: {children: React.ReactNode}) {
   return (
       <div className={'container'}>
-      <Navs/>
+        <Navs/>
         {children}
       </div>
   )
