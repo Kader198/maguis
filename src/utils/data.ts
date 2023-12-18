@@ -1,5 +1,4 @@
 import {Braces, GanttChart, GraduationCap, LucideIcon, User} from "lucide-react";
-import React from "react";
 
 type Link = {
     name: string;

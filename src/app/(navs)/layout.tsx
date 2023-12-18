@@ -5,7 +5,9 @@ export default function EducationsLayout({children}: {children: React.ReactNode}
   return (
       <div className={'container'}>
         <Navs/>
-        {children}
+        <div className=" p-2">
+          {children}
+        </div>
       </div>
   )
 }
